@@ -1,0 +1,7 @@
+x = int(input())
+y = x
+while y < 12:
+  x = int(input())
+  y += x
+y = y - 12
+print(str(y))
