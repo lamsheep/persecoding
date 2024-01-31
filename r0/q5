@@ -1,0 +1,6 @@
+x = input()
+if x in "tc":
+  y = int(input())
+  print(str(y + 1))
+else:
+  print("1")
