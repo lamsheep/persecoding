@@ -1,0 +1,2 @@
+en = input()
+print(en[2:] + en[0:2])
