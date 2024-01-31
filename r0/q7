@@ -1,0 +1,12 @@
+words = int(input())
+days = words//5
+last = words - days * 5
+
+days = days + 1
+it = 0
+for x in range(days):
+  it += 5
+  it = it + (5 * (x-1))
+  
+it += ((5*(days-1)) + last)
+print(it)
